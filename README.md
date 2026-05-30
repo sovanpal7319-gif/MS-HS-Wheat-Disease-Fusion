@@ -1,4 +1,5 @@
 # 🌾🚀 Multimodal Spectral Fusion for Wheat Disease Classification
+
 ---
 
 # 🧠 Overview
@@ -15,27 +16,7 @@ The project demonstrates that spectral imaging significantly outperforms traditi
 
 ---
 
-# 📦 Dataset Modalities
-
-<p align="center">
-  <img src="figures/modalities.png" width="850">
-</p>
-
-<p align="center">
-<b>RGB, Multispectral, and Hyperspectral Modalities</b>
-</p>
-
----
-
 # 🛰️ Why Spectral Imaging?
-
-<p align="center">
-  <img src="figures/spectral_analysis.png" width="850">
-</p>
-
-<p align="center">
-<b>Healthy vs Rust Spectral Reflectance Comparison</b>
-</p>
 
 RGB imagery often fails to reveal early physiological stress, while spectral imaging captures:
 
@@ -75,10 +56,6 @@ RGB imagery often fails to reveal early physiological stress, while spectral ima
 
 # 🧠 Fusion Model Architecture
 
-<p align="center">
-  <img src="figures/attention_fusion.png" width="900">
-</p>
-
 ## 🔄 Pipeline
 
 ```text
@@ -97,10 +74,6 @@ Healthy / Rust / Other
 ---
 
 # ⚙️ Preprocessing Pipeline
-
-<p align="center">
-  <img src="figures/preprocessing_pipeline.png" width="850">
-</p>
 
 ## 🌈 RGB Preprocessing
 
@@ -160,10 +133,6 @@ Using:
 
 # 📊 Validation Accuracy
 
-<p align="center">
-  <img src="figures/model_comparison.png" width="850">
-</p>
-
 | Model            | Validation Accuracy |
 | ---------------- | ------------------- |
 | RGB              | 55.83%              |
@@ -174,10 +143,6 @@ Using:
 ---
 
 # 📈 Classical Classifier Evaluation
-
-<p align="center">
-  <img src="figures/classifier_comparison.png" width="950">
-</p>
 
 The learned 256-D fusion embeddings were evaluated using:
 
